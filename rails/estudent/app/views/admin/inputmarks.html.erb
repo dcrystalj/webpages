@@ -1,0 +1,50 @@
+<%= javascript_include_tag "validateinputmarks" %>
+<h1 id="inputmarkstitle"> Vnos ocen </h1>
+<div id="conty">
+  <%= form_tag("/admin/inputmarks/create",:method => "post", :class => "form") do %>
+    <ul>
+      <li>
+      <label>
+        <span id="useridname">Vpisna študenta:</span>
+        <input list="student" id="studentid" name="student">
+        <datalist id="student">
+        <% @users.each do |u| %>
+          <option value="<%= u.ids %> <%= u.name %> <%= u.surname %>">
+        <% end %>
+        </datalist>
+      </label>
+    </li><li>
+      <span id="applysubject">Predmet:</span>
+      <select id = "subject" name="subject">
+        <% Subject.order(:id,:name).all.each do |s| %>
+            <option value="<%= s.subjectid %>"><%= s.name %>  </option>
+        <% end %>
+      </select>
+    </li><li>
+      <span id="grade">Ocena:</span>
+      <select id = "mark" name="mark">
+        <option value = "5">5</option>
+        <option value = "6">6</option>
+        <option value = "7">7</option>
+        <option value = "8">8</option>
+        <option value = "9">9</option>
+        <option value = "10">10</option>
+      </select>
+    </li><li>
+      <span id="year">Letnik:</span>
+      <select name="year">
+        <option value = "1">1</option>
+        <option value = "2">2</option>
+        <option value = "3">3</option>
+      </select>
+    </li><li>
+      <%= submit_tag("Prijavi se",:style=>"margin-left:125px !important; width:auto;",:id=>"submitgrade") %>
+    </li>
+      <li>
+        <% if flash[:notice] %>
+            <div id="notice" style="margin-left:125px"><%= flash[:notice] %></div>
+        <% end %>
+      </li>
+     </ul>
+   <% end %>
+</div>

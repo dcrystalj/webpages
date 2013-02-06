@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title id="title"> E-student </title>
+	<meta charset="utf-8" >
+  	<meta name="Author" content="Tomaz Tomazic" >
+  	<meta name="keywords" content="student, izpit, indeks, ocene, referat" >
+    <link href="static/style.css" rel="stylesheet" type="text/css" >
+    <script type = "text/javascript"  src = "static/jquery-1.8.3.min.js" ></script>
+    <script type = "text/javascript"  src = "static/jquery-ui.js" ></script>
+	<script type = "text/javascript"  src = "static/main.js" ></script>
+	<script type = "text/javascript"  src = "static/translate.js" ></script>
+    <script type = "text/javascript"  src = "static/IEfix.js" ></script>
+  </head>
+  <body>
+    <header>
+        <div>
+            <span id="fax1">Fakulteta za raziskovanje rude</span>
+            <br />
+            <span id="fax2">in zapravljanje časa</span>
+        </div>
+        <img src="images/ul.png" alt="logo" />
+    </header>
+    <div id="main">
+        <div id="leftdiv">
+            <div id="userdata">
+                <div>
+                    Mojeime <br />
+                    MojPriimek
+                    <small>test@test.com</small>
+                </div>
+                <div class="imagewithcaption">
+                    <img src="images/userimage.png" alt="userimage" id="userimage"/>
+                    <div class="caption">
+                        <p id="imagecaption1">Status: Študent</p>
+                    </div>
+                </div>
+                <time datetime="2012-02-17">February 17, 2012</time>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="menu1">Domov</a></li>
+                    <li><a href="#" id="menu2" id="menu2">Kartotečni list</a></li>
+                    <li><a href="marks.html" id="menu3">Pregled Ocen</a></li>
+                    <li><a href="#" id="menu5">Izipit</a>
+                        <ul>
+                            <li><a href="check.html" id="menu5_1">Prijava</a></li>
+                            <li><a href="login.html" id="menu5_2">Odjava</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="login.html" id="menu6">Odjava</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="content">
+            <h1 id="welcome">Dobrodošli</h1>
+            <div id="conty">
+                <span id="welcomecontent" style="width: 100%;">Dobordosli na strani E-student fakultete za zapravljanje časa.</span>
+            </div>
+        </div>
+    </div>
+    <footer >
+        <span id="footer">©2012-2013 FRZC. Vse pravice pridržane</span>
+        <p><a id="slo">Slo </a> <a id="eng">Eng </a></p>
+    </footer>
+  </body>
+</html>

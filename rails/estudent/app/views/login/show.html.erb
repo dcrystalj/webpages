@@ -1,0 +1,13 @@
+<div id="login">
+  <div id="content">
+    <h1 id="logintitle"> Prijava </h1>
+    <%= form_tag("/login",:method => "post") do %>
+        <ul id="logintags">
+          <li id="enteruser">Vpisna stevilka</li> <li><%= text_field_tag(:username,:loginusername)  %></li>
+          <li id="enterpass">Geslo</li> <li><%= password_field_tag(:password,:loginpassword) %></li>
+          <li><%= submit_tag("Prijava") %></li>
+        </ul>
+    <%= end %>
+
+  </div>
+</div>

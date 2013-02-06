@@ -1,0 +1,23 @@
+<h1> Ocene </h1>
+<div id="conty">
+<table>
+  <thead>
+  <tr>
+    <th colspan="3" id="applysubject">Predmet</th>
+    <th id="year">Letnik</th>
+    <th id="grade">Ocena</th>
+  </tr>
+  </thead>
+  <tbody id="xmlmarks">
+     <% @marks.each_with_index do |m,i| %>
+      <tr><td> <%= i+1 %> </td><td><%=m.subject%></td><td onmouseover='description(event)'><%=Subject.where(:subjectid =>m.subject).first.name%></td><td><%= m.year %></td><td><%= m.mark %></td></tr>
+     <% end %>
+  </tbody>
+</table>
+<div id="descriptions">
+  <% @marks.each_with_index do |m,i| %>
+      <p id="<%=m.subject%>"  style="display: none;"><%= Subject.where(:subjectid =>m.subject).first.description %>  </p>
+  <% end %>
+  </div>
+</div>
+<%= javascript_include_tag "prikazocen" %>

@@ -1,0 +1,11 @@
+<ul>
+  <li><%= link_to "Domov", "/user/show" , :id=> 'menu1' %></li>
+  <li><%= link_to "Pregled Ocen", "/user/marks",  :id=> 'menu3' %></li>
+  <li><a href="" id="menu5">Izipit</a>
+    <ul>
+      <li><%= link_to "Prijava","/user/check", :id=> 'menu5_1' %></li>
+      <li><%= link_to "Odjava","/user/checkout", :id=> 'menu5_2'  %></li>
+    </ul>
+  </li>
+  <li><%= link_to "Odjava", "/logout", :id=> 'menu6'   %></li>
+</ul>

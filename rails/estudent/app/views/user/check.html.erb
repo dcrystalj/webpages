@@ -1,0 +1,22 @@
+<h1 id="applytoexam"> Prijava na izpit </h1>
+<div id="conty">
+  <%= form_tag("/user/check/create",:method => "post") do %>
+    <ul>
+      <li>
+        <% if flash[:notice] %>
+            <div id="notice" style="margin-left:125px"><%= flash[:notice] %></div>
+        <% end %>
+      </li>
+      <li>
+        <span id="applysubject">Predmet</span>
+        <select name="myList" id = "myList" >
+            <%= @subject.each do |s| %>
+                  <option value='<%= s.subjectid %>'><%= s.name %></option>
+            <% end %>
+        </select>
+      </li>
+      <li><%= submit_tag("Prijavi se",:style=>"margin-left:125px !important; width:auto;") %></li>
+
+    </ul>
+  <% end %>
+</div>

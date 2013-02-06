@@ -1,0 +1,19 @@
+<h1> Razpiši izpitni rok</h1>
+<div>
+  <%= form_tag("/admin/examon/update",:method => "post", :class => "form") do %>
+    <ul style="width: 100%; text-align: center; list-style: none; padding: 0px;">
+      <li>
+        <span id="applysubject">Predmet:</span>
+        <select id = "subject" name="subject">
+        <% @subject.each do |s| %>
+          <option value="<%= s.subjectid %>"><%= s.name %></option>
+        <% end %>
+        </select>
+      </li>
+      <li><%= submit_tag("Razpiši") %></li>
+      <% if flash[:notice] %>
+          <div id="notice"><%= flash[:notice] %></div>
+      <% end %>
+    </ul>
+  <% end %>
+</div>

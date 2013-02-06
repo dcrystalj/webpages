@@ -1,0 +1,29 @@
+<h1 id="inputmarkstitle"> Registriraj uporabnika</h1>
+<div id="conty">
+  <%= form_tag("/admin/register/create",:method => "post", :class => "form") do %>
+    <ul><li><label>
+      <span>ime:</span>
+      <%= text_field_tag :name, "" ,:required => true  %>
+    </label></li><li><label>
+      <span>priimek:</span>
+      <%= text_field_tag(:surname,"",:required => true)  %>
+    </label></li><li><label>
+      <span>mail:</span>
+      <%= text_field_tag(:mail,"",:required => true)  %>
+    </label></li><li><label>
+      <span>vpisna št.:</span>
+      <%= text_field_tag(:id,"",:required => true,:pattern=>".{8}")  %>
+    </label></li><li><label>
+      <span>geslo:</span>
+      <%= password_field_tag(:passwd,"",:required => true)  %>
+    </label></li><li>
+      <%= submit_tag("Vpisi",:id=>"submitgrade") %>
+    </li>
+      <li>
+        <% if flash[:notice] %>
+            <div id="notice" style="margin-left: 125px;"><%= flash[:notice] %></div>
+        <% end %>
+      </li>
+     </ul>
+    <% end %>
+</div>

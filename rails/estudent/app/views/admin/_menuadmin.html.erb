@@ -1,0 +1,13 @@
+<ul>
+  <li><%= link_to "Domov", "/admin/show", :id=> 'menu1' %></li>
+  <li>
+    <a href="">izpitni rok</a>
+    <ul>
+      <li> <%= link_to "Razpiši", "/admin/examon" %></li>
+      <li><%= link_to  "Zaključi prijave", "/admin/examoff" %></li>
+    </ul>
+  </li>
+  <li><%= link_to "Vnos Ocen",  "/admin/inputmarks" %></li>
+  <li><%= link_to "Registracija", "/admin/register" %></li>
+  <li><%= link_to "Odjava", "/logout" %></li>
+</ul>

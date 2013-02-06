@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<evidencaocen>
+  <ocene idstudenta="63100281">
+    <ocena>
+      <idpredmet>63201</idpredmet>
+      <predmet>Osnove programiranja</predmet>
+      <letnik>1</letnik>
+      <vrednost>10</vrednost>
+    </ocena>
+    <ocena>
+      <idpredmet>63204</idpredmet>
+      <predmet>Spletno programiranje</predmet>
+      <letnik>3</letnik>
+      <vrednost>10</vrednost>
+    </ocena>
+    <ocena>
+      <idpredmet>63202</idpredmet>
+      <predmet>Osnove matematične analize</predmet>
+      <letnik>3</letnik>
+      <vrednost>9</vrednost>
+    </ocena>
+    <ocena>
+      <idpredmet>63203</idpredmet>
+      <predmet>Diskretne strukture</predmet>
+      <letnik>2</letnik>
+      <vrednost>8</vrednost>
+    </ocena>
+  </ocene>
+  <ocene idstudenta="63100282">
+    <ocena>
+      <idpredmet>63201</idpredmet>
+      <predmet>Osnove programiranja</predmet>
+      <letnik>1</letnik>
+      <vrednost>10</vrednost>
+    </ocena>
+    <ocena>
+      <idpredmet>63204</idpredmet>
+      <predmet>Spletno programiranje</predmet>
+      <letnik>3</letnik>
+      <vrednost>8</vrednost>
+    </ocena>
+    <ocena>
+      <idpredmet>63202</idpredmet>
+      <predmet>Osnove matematične analize</predmet>
+      <letnik>3</letnik>
+      <vrednost>7</vrednost>
+    </ocena>
+    <ocena>
+      <idpredmet>63203</idpredmet>
+      <predmet>Diskretne strukture</predmet>
+      <letnik>2</letnik>
+      <vrednost>6</vrednost>
+    </ocena>
+  </ocene>
+</evidencaocen>

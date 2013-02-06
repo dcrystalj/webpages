@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prevodi>
+  <prevod id="title">
+    <eng>E-student</eng>
+    <slo>E-študent</slo>
+  </prevod>
+  <prevod id="fax1">
+    <eng>Faculty for searching ruda</eng>
+    <slo>Fakulteta za raziskovanje rude</slo>
+   </prevod>
+    <prevod id="fax2">
+    <eng>and wasting time</eng>
+    <slo>in zapravljanje časa</slo>
+   </prevod>
+    <prevod id="menu1">
+    <eng>Home</eng>
+    <slo>Domov</slo>
+   </prevod>
+   <prevod id="menu2">
+    <eng>Index card</eng>
+    <slo>Kartotečni list</slo>
+   </prevod>
+    <prevod id="menu3">
+    <eng>Marks</eng>
+    <slo>Pregled Ocen</slo>
+   </prevod>
+    <prevod id="menu4">
+    <eng>Add new exam</eng>
+    <slo>Razpiši izpitni rok</slo>
+   </prevod>
+    <prevod id="menu5">
+    <eng>Exam</eng>
+    <slo>Izpit</slo>
+   </prevod>
+    <prevod id="menu5_1">
+    <eng>Apply to</eng>
+    <slo>Prijava</slo>
+   </prevod>
+    <prevod id="menu5_2">
+    <eng>Logout</eng>
+    <slo>Odjava</slo>
+   </prevod>
+    <prevod id="menu6">
+    <eng>Logout</eng>
+    <slo>Odjava</slo>
+   </prevod>
+    <prevod id="welcome">
+    <eng>Welcome</eng>
+    <slo>Dobrodosli</slo>
+   </prevod>
+    <prevod id="footer">
+    <eng>©2012-2013 FRZC. All rights reserved</eng>
+    <slo>©2012-2013 FRZC. Vse pravice pridržane</slo>
+   </prevod>
+    <prevod id="checktitle">
+    <eng>Apply to exam</eng>
+    <slo>Prijava na izpit</slo>
+   </prevod>
+    <prevod id="checksubject">
+    <eng>Subject</eng>
+    <slo>Predmet</slo>
+   </prevod>
+    <prevod id="submitgrade" attr="value">
+    <eng>Apply</eng>
+    <slo>Prijave se</slo>
+   </prevod>
+    <prevod id="userimage" attr="alt">
+    <eng>userimage</eng>
+    <slo>uporabinkova slika</slo>
+   </prevod>
+    <prevod id="imagecaption1">
+    <eng>Status: student</eng>
+    <slo>Status: študent</slo>
+   </prevod>
+    <prevod id="imagecaption2">
+    <eng>Status: Professor</eng>
+    <slo>Status: Profesor</slo>
+   </prevod>
+    <prevod id="welcomecontent">
+    <eng>Welcome on on this webpage E-student of faculty for wasting time.</eng>
+    <slo>Dobordosli na strani E-student fakultete za zapravljanje časa.</slo>
+   </prevod>
+    <prevod id="logintitle">
+    <eng>Lgoin</eng>
+    <slo>Prijava</slo>
+   </prevod>
+    <prevod id="enteruser">
+    <eng>Student id</eng>
+    <slo>Vpisna stevilka</slo>
+   </prevod>
+    <prevod id="enterpass">
+    <eng>Password</eng>
+    <slo>Geslo</slo>
+   </prevod>
+    <prevod id="applysubject">
+    <eng>Subject</eng>
+    <slo>Predmet</slo>
+   </prevod>
+    <prevod id="inputmarkstitle">
+    <eng>Insert grade</eng>
+    <slo>Vnos ocen</slo>
+   </prevod>
+    <prevod id="useridname">
+    <eng>Student id</eng>
+    <slo>Vpisna študenta</slo>
+   </prevod>
+    <prevod id="grade">
+    <eng>Grade</eng>
+    <slo>Ocena</slo>
+   </prevod>
+    <prevod id="year">
+    <eng>year</eng>
+    <slo>letnik</slo>
+   </prevod>
+      <prevod id="applytoexam">
+    <eng>Apply to exam</eng>
+    <slo>Prijava na izpit </slo>
+   </prevod>
+      <prevod id="choose">
+    <eng>Choose</eng>
+    <slo>Izberi</slo>
+   </prevod>
+</prevodi>

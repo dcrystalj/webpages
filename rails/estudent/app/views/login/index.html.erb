@@ -1,0 +1,16 @@
+<div id="login">
+  <div id="content">
+    <h1 id="logintitle"> Prijava </h1>
+    <% if flash[:notice] %>
+      <div id="notice"><%= flash[:notice] %></div>
+    <% end %>
+    <%= form_tag("/login/create",:method => "post") do %>
+        <ul id="logintags">
+          <li id="enteruser">Vpisna stevilka</li> <li><%= text_field_tag 'username',nil,:id=>'loginusername'  %></li>
+          <li id="enterpass">Geslo</li> <li><%= password_field_tag 'password',nil, :id=> 'loginpassword' %></li>
+          <li><%= submit_tag("Prijava") %></li>
+        </ul>
+    <% end %>
+
+  </div>
+</div>

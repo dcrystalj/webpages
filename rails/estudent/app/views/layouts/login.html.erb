@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title id="title">E-student</title>
+
+  <meta charset="utf-8" >
+  <meta name="Author" content="Tomaz Tomazic" >
+  <meta name="Author" content="Tomaz Tomazic" >
+  <meta name="keywords" content="student, izpit, indeks, ocene, referat" >
+
+  <%= stylesheet_link_tag "style", :media => "all" %>
+
+
+  <%= javascript_include_tag "jquery-1.8.3.min" %>
+  <%= javascript_include_tag "jquery-ui" %>
+  <%= javascript_include_tag "main" %>
+  <%= javascript_include_tag "translate" %>
+  <%= javascript_include_tag "IEfix" %>
+  <%= javascript_include_tag "validatelogin" %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+<header>
+  <div>
+    <span id="fax1">Fakulteta za raziskovanje rude</span>
+    <br />
+    <span id="fax2">in zapravljanje časa</span>
+  </div>
+  <img src="<%=asset_path "ul.png" %>" alt="logo" />
+</header>
+
+<%= yield %>
+
+<footer >
+  <span id="footer">©2012-2013 FRZC. Vse pravice pridržane</span>
+  <p><a id="slo">Slo </a> <a id="eng">Eng </a></p>
+</footer>
+</body>
+</html>
+
+
+
